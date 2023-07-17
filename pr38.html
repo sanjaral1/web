@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>port Folio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-image: url(cool.png);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            /* opacity: 0.5; */
+        }
+
+        .logo {
+            font-size: 45px;
+            font-weight: bolder;
+            padding-left: 150%;
+            color: white;
+            text-decoration: underline ;
+        }
+
+        .navbar ul li {
+            color: white;
+            list-style: none;
+            float: left;
+            font-size: 30px;
+            padding: 12px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .navbar ul li:hover {
+            background-color: aqua; 
+            transition: 0.5s;
+            color: black;
+        }
+
+        .card {
+            display: flex;
+            gap: 40%;
+            padding-top: 2%;
+        }
+
+        .crdbody {
+            color: white;
+            padding-left: 10%;
+            padding-top: 6%;
+            font-size: x-large;
+        }
+
+        .btn1 {
+            padding-top: 2%;
+        }
+
+        button {
+            width: 10vw;
+            font-size: larger;
+            height: 5vh;
+            border-radius: 25px;
+            box-shadow: 5px 5px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+            color: aliceblue;
+        }
+
+        .icons {
+            padding-top: 2%;
+            display: flex;
+            gap: 30px;
+        }
+
+        .icon01 {
+            background-color: aqua;
+            border-radius: 100px;
+        }
+
+        .icon01:hover{
+            background-color:  crimson;
+            transition: 0.2s;
+        }
+
+        .wall {
+            float: right;
+            margin-top: -15%;
+            padding-right: 100px;
+        }
+
+        .selfimg {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="icon">
+                <h1 class="logo">SDWeb</h1>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <a href="index1.html"><li>Home</li></a>
+                    <a href="pr38about.html" target="_blank"><li>About</li></a>
+                    <li>Skills</li>
+                    <li>Education</li>
+                    <li>Work</li>
+                    <li>Experince</li>
+                    <a href="contact page.html" target="_blank"><li>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="crdbody">
+            <h1>
+                Hi There,
+                <br>
+                <br>
+                I M Sanju Saiyed
+                <br>
+                <br>
+                I Am Become A Web Developer
+            </h1>
+
+            <div class="wall">
+                <img src="man.png" alt="" class="selfimg">
+            </div>
+            <div class="btn1">
+                <a href="https://www.google.com" target="_blank"><button>About Me!</button></a>
+            </div>
+
+            <div class="icons">
+                <div>
+                    <a href="https://www.twitter.com" target="_blank"><img src="001-twitter.png" alt=""
+                            class="icon01"></a>
+                </div>
+                <div>
+                    <a href="https://www.telegram.com" target="_blank"><img src="005-telegram.png" class="icon01"></a>
+
+                </div>
+                <div>
+                    <a href="https://www.youtube.com" target="_blank"><img src="002-youtube.png" alt=""
+                            class="icon01"></a>
+
+                </div>
+                <div>
+                    <a href="https://www.whatsapp.com" target="_blank"><img src="003-whatsapp.png" alt=""
+                            class="icon01"></a>
+
+                </div>
+                <div>
+                    <a href="https://www.instagram.com" target="_blank"><img src="004-instagram.png" alt=""
+                            class="icon01"></a>
+
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com" target="_blank"><img src="006-linkedin.png" alt=""
+                            class="icon01"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
